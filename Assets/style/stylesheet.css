@@ -1,25 +1,23 @@
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-body {
-    background-image: url(../Images/leaf-1498985_1920.jpg);
+#leaves {
+    background-image: url(../Images/wheel.jpg);
+    min-height: 780px; 
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 4in;
     background-size: cover;
-    font-family: 'IBM Plex Sans', sans-serif;
-} 
+  }
 
 h1 {
-    padding-top: 2in;
+    margin-top: 2in;
+    padding: .1in;
     font-size: .98in;
     color: #E6F8D6;
     text-align: center;
     background-blend-mode: color-burn;
     font-weight: bolder;
+    font-family: 'Proza Libre', sans-serif;
+     background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -29,51 +27,29 @@ h2 {
     background-blend-mode: color-burn;
     font-weight: bolder;
     padding-bottom: 1in;
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+}
+
+.wraptext {
+    margin-top: .6in;
+    font-size:.3in;
 }
 
 .aboutMe {
-    padding-top: 3in;
+    padding-top: .5in;
     padding-bottom: 3in;
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.juice {
-    background: lightgreen;
-    padding: .2in;
-}
-
-form {
-    text-align: center;
-    padding-bottom: .2in;
-}
-h3 {
-    font-size: .4in;
-}
-
-p {
-    padding: .25in;
-}
 .row {
        position:relative;
-       padding: ,75in;
 }
 
 .skills {
     width: 90%;
 }
-.skills2 {
-    width: 90%;
-}
     
-
-#footer {
-    position:fixed;
-      background-color: darkgreen;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 40px;
-      color:white;
-      text-align: center;
-}
